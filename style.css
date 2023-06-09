@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Epilogue:wght@400;700;800&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  color: #183b56;
+}
+
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  color: #577592;
+  line-height: 1.8rem;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
