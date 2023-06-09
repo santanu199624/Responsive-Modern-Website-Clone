@@ -1,6 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Epilogue:wght@400;700;800&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Epilogue:wght@400;700;800&family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
   font-family: 'Poppins', sans-serif;
   color: #183b56;
@@ -26,4 +32,93 @@ p{
 a{
   text-decoration: none;
   display: inline-block;
+}
+
+/* UTILITY CLASS */
+
+.container{
+    max-width: 1180px;
+    margin: auto;
+    padding: 20px;
+}
+.hover-links{
+    color: black;
+}
+.hover-links:hover{
+    color: #2294ed;
+    transition: 0.2s ease-out;
+}
+.primary-button{
+    background-color: #2294ed;
+    border-radius: 6px;
+    font-weight: 700px;
+    color: white !important;
+    padding: 12px 14px;
+    box-shadow: 0 0 2px #577592;
+    transition: 0.2s ease-out;
+}
+.primary-button:hover{
+    background-color: #1d69a3;
+}
+.secondary-button{
+    border: 0.5px solid #577592;
+    padding: 12px 14px;
+    border-radius: 6px;
+    font-weight: 700;
+    color: #183b56;
+    transition: 0.2s ease-out;
+}
+.secondary-button:hover{
+    border-color: #2294ed;
+    color: #2294ed;
+}
+
+/* TOP BANNER */
+
+.top-banner-text{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url(./assets/asset\ 32.png);
+    background-size: 300px;
+}
+
+/* NAVBAR */
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: end;
+    gap: 40px;
+    
+}
+.company-logo img{
+    width: 200px;
+}
+
+/* HEADER */
+
+.header-section{
+    border: 1px solid red;
+    display: flex;
+}
+.header-left{
+    border: 1px solid green;
+}
+.header-right{
+    border: 1px solid black;
 }
